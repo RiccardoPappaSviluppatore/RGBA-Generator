@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 50px;
+    width: 15rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #3e3e3e;
+    padding: 30px 100px;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: column;
+}
+
+.output-box {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.output {
+    border: 2px solid;
+    padding: 6px 20px;
+}
+
+.copy-btn {
+    cursor: pointer;
+    padding: 12px;
+    background: #ffffff;
+}
